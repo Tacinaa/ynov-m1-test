@@ -1,6 +1,6 @@
 package org.example.mockitotest.service;
 
-import jakarta.persistence.EntityNotFoundException;
+import org.example.mockitotest.exception.EntityNotFoundException;
 import org.example.mockitotest.exception.InvalidEmailException;
 import org.example.mockitotest.model.User;
 import org.example.mockitotest.repository.UserRepository;
