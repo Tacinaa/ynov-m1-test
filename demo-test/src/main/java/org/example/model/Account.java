@@ -1,21 +1,13 @@
 package org.example.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Account {
-
-    private double moneyAmount;
-
-    public Account() {
-    }
-
-    public Account(double moneyAmount) {
-        this.moneyAmount = moneyAmount;
-    }
-
-    public double getMoneyAmount() {
-        return this.moneyAmount;
-    }
-
-    public void setMoneyAmount(double moneyAmount) {
-        this.moneyAmount = moneyAmount;
-    }
+    private String id;
+    private double balance;
 }
